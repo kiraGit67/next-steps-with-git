@@ -10,3 +10,13 @@ html {
 body {
   background-color: transparent;
 }
+
+header {
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem 2.5rem;
+}
